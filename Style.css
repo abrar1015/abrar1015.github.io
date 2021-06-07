@@ -1,0 +1,116 @@
+body{
+    background: url(Images/Background.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* background img size 1600 x 800 */
+
+h1{
+    display: inline-block;
+    margin: 80px 80px;
+    color: rgb(226, 244, 245);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+
+}
+
+p{
+    margin: 50px 80px;
+    color: rgb(239, 252, 253);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+.navbar{
+    border: 10px double;
+    background-color: aliceblue;
+    
+}
+
+.navbar p{
+    text-indent: 70px;
+    color: black;
+    text-shadow: 2px 2px darkslategrey;
+    font-family: 'Lobster', cursive; 
+}
+
+#innerlink{
+    display: block;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    
+}
+
+
+#innerlink:link{
+    background-color: aliceblue;
+    color: cadetblue;
+}
+
+#innerlink:visited{
+    background-color: darkmagenta;
+    color: black;       
+}
+
+#innerlink:hover{
+    background-color: lightblue;
+    color: black;
+}
+
+.listclass{
+    width: 300px;
+    margin: auto;
+    padding: 50px;
+ 
+}
+
+.listclass ol li{
+    color: white;
+    font-size: 40px;
+    word-spacing: 20px;
+}
+
+.mytable{
+    padding: 50px;
+    margin-top: 20px; 
+    background-color: white;  
+}
+    
+.tablecontainer{
+      
+}
+
+.tablecontainer table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: rgb(161, 249, 255);
+}
+
+.tablecontainer table th{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+     
+.tablecontainer table td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.mydisplay{
+    padding: 25px;
+    background-color: blueviolet;
+    position: sticky;
+    top: 0;
+}
+     
